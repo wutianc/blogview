@@ -5,6 +5,8 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 
+import '../static/init.css';
+
 Vue.config.productionTip = false;
 
 axios.defaults.withCredentials = true;
